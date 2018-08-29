@@ -252,9 +252,8 @@ HTTP 200 OK (Success)
  ``` 
  $ npm test 
  ```
- API 단위 테스트 진행 
- ![테스트img](http://14.63.175.62/todo/mocha-test.png "test")
-
+ API 단위 테스트 진행 <br>
+ <img src="http://14.63.175.62/todo/mocha-test.png" width="70%">
 ### REACT [github](https://github.com/vhfmatks/todo-react)
 
  ``` 
@@ -265,10 +264,12 @@ HTTP 200 OK (Success)
  $ npm start 
  ```
  WEB Browser 를 통한 실행 (http://localhost:3000)
+ <br><br>
+ <img src="http://14.63.175.62/todo/todo-list.png" width="90%">
  
 ## Live Demo
 
 개발된 프로젝트는 다음 주소에서 백엔드와 프론트엔드 각각 실행해볼 수 있습니다.
 
-* Backend (Express): []()
+* Backend (Express): (http://yhchoi.iptime.org:8001/todos)
 * Frontend(React)  : (http://14.63.175.62/todo/)
