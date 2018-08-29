@@ -238,8 +238,16 @@ HTTP 200 OK (Success)
 
 프로젝트 Root디렉토리에서 install 및 start 실행한다.
 
-### REST API [github](https://github.com/vhfmatks/todo-rest)
+### REST API [ [github](https://github.com/vhfmatks/todo-rest) ]
 
+ ```
+ $ git clone https://github.com/vhfmatks/todo-rest.git
+ ```
+ git 저장소에서 프로젝트 복사
+ ```
+ $ cd todo-rest
+ ```
+ 프로젝트 폴더로 이동
  ``` 
  $ npm install 
  ```
@@ -254,7 +262,17 @@ HTTP 200 OK (Success)
  ```
  API 단위 테스트 진행 <br>
  <img src="http://14.63.175.62/todo/mocha-test.png" width="70%">
-### REACT [github](https://github.com/vhfmatks/todo-react)
+### REACT [[github](https://github.com/vhfmatks/todo-react)]
+
+ ```
+ $ git clone https://github.com/vhfmatks/todo-react.git
+ ```
+ git 저장소에서 프로젝트 복사
+ ```
+ $ cd todo-react
+ ```
+ 프로젝트 폴더로 이동
+
 
  ``` 
  $ npm install
