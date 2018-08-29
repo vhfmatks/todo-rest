@@ -300,7 +300,8 @@ HTTP 200 OK (Success)
  
 ## Live Demo
 
-개발된 프로젝트는 다음 주소에서 백엔드와 프론트엔드 각각 실행해볼 수 있습니다.
+개발된 프로젝트는 다음 주소에서 백엔드와 프론트엔드 각각 실행해볼 수 있습니다.<br>
+(Chrome Browser에 최적화 되어있습니다.)
 
 * Backend (Express): (http://yhchoi.iptime.org:8001/todos)
 * Frontend(React)  : (http://14.63.175.62/todo/)
