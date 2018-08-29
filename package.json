@@ -1,0 +1,22 @@
+{
+  "name": "todo-rest",
+  "version": "1.0.0",
+  "description": "TODO APP REST API",
+  "main": "web.js",
+  "scripts": {
+    "start": "node web.js",
+    "test": "node_modules/.bin/mocha index.test.js --recursive -w"
+  },
+  "author": "yhchoi",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "chai": "^4.1.2",
+    "chai-http": "^4.0.0",
+    "cors": "^2.8.4",
+    "express": "^4.16.3",
+    "mocha": "^5.2.0",
+    "morgan": "^1.9.0",
+    "sqlite3": "^4.0.2"
+  }
+}
