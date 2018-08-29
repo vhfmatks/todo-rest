@@ -1,5 +1,16 @@
-
-
+## 차례
+- [TODO LIST APP](#todo-list-app)
+  - [요구 조건](#요구-조건) 
+  - [예시](#예시)
+  - [구현언어](#구현-언어)
+- [문제 해결 전략](#문제-해결-전략)
+  - [테이블 구조](#테이블-구조)
+  - [조회,갱신,입력](#조회-갱신-입력)
+- [실행방법](#실행방법)
+  - [REST API](#rest-api)
+  - [REACT](#react)
+- [Live Demo](#live-demo)
+  
 ## Todo List App
 
 ### 요구 조건
@@ -79,7 +90,7 @@
 
 <br>
 
-### 조회, 갱신, 입력
+### 조회 갱신 입력
 
 **1. 조회 [GET Method]**
 
@@ -238,7 +249,8 @@ HTTP 200 OK (Success)
 
 프로젝트 Root디렉토리에서 install 및 start 실행한다.
 
-### REST API [ [github](https://github.com/vhfmatks/todo-rest) ]
+### REST API 
+[github](https://github.com/vhfmatks/todo-rest)
 
  ```
  $ git clone https://github.com/vhfmatks/todo-rest.git
@@ -262,7 +274,8 @@ HTTP 200 OK (Success)
  ```
  API 단위 테스트 진행 <br>
  <img src="http://14.63.175.62/todo/mocha-test.png" width="70%">
-### REACT [[github](https://github.com/vhfmatks/todo-react)]
+### REACT 
+[github](https://github.com/vhfmatks/todo-react)
 
  ```
  $ git clone https://github.com/vhfmatks/todo-react.git
