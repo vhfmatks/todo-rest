@@ -159,6 +159,10 @@ HTTP 200 OK
 
 > 할일 TEXT와 완료여부를 갱신할 수 있다.
 
+* 할일 Text 수정은 조건없이 가능함.
+* 완료 처리 시 참조된 할일이 처리되었는지 확인함.
+* 참조된 할일이 없거나, 처리완료 되었을 때 완료 여부를 N->Y로 수정 가능.
+
 [Request]
 
 | 키 | 설명 | 필수 | 타입|
@@ -209,6 +213,11 @@ HTTP 200 OK (Error)
 **3. 입력 [POST Method]**
 
 > 신규 할일을 입력할 수 있다. 입력 시 다른 ID 참조 가능
+
+* POST 거래 시 TBTODO 테이블에 먼저 입력됨.
+* 배열로 입력된 참조된 할일의 TBTODO테이블 존재여부를 파악.
+* 존재하는 참조만 TBREF에 입력, 존재하지 않을 경우 SKIP
+
 [Request]
 
 | 키 | 설명 | 필수 | 타입|
@@ -274,6 +283,9 @@ HTTP 200 OK (Success)
  ```
  API 단위 테스트 진행 <br>
  <img src="http://14.63.175.62/todo/mocha-test.png" width="70%">
+
+---
+
 ### REACT 
 [github](https://github.com/vhfmatks/todo-react)
 
